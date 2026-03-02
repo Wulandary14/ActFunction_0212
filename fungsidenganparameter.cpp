@@ -15,3 +15,11 @@ void input(){
 int luasPersegi(int a, int b){
     return a * b;
 }
+
+int jumlah(int x, int y, int z){
+    return x+y+z;
+}
+
+void output(){
+    cout << "hasilnya : " << luasPersegi(panjang,lebar) << endl;
+}
